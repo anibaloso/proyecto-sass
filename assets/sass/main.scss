@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+
+// 1.- Abstracts
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// 2.- Vendors (Bootstrap)
+
+
+
+// 3.- base
+
+@import 'base/reset';
+@import 'base/tipography';
+
+// 4.- Layout
+@import 'layout/container';
+@import 'layout/header';
+@import 'layout/footer';
+
+// 5.- Components
+@import 'components/logo';
+@import 'components/posts';
+@import 'components/categoria';
+@import 'components/user';
+@import 'components/buttons';
+
+// 6.- Pages
+// 7.- Themes
+@import 'theme/theme';
+// 8.- Shame
+@import 'shame/shame';
+

@@ -1,0 +1,36 @@
+.btn{
+    height: 2.5rem;
+    border-radius: $border-rounded;    
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    color: $black;
+    
+}
+
+.btn-crear{
+    background-color: $green;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+
+.btn-registrar{
+    background-color: $white;
+    border: 1px solid;
+    text-decoration: none;
+
+    
+}
+
+.btn-suscribir{
+    padding: 1rem;
+    width: 200px;
+    border-radius: $border-rounded;
+    margin-left: auto;
+
+}

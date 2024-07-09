@@ -1,0 +1,18 @@
+//espaciado horizontal contenedores
+
+@mixin padding-4-sides($space-v, $space-h ){
+    padding-left: $space-h;
+    padding-right: $space-h;
+    padding-top: $space-v;
+    padding-bottom: $space-v;
+}
+
+@mixin margin-width($margin-r-l){
+    margin-left: $margin-r-l;
+    margin-right: $margin-r-l;
+}
+
+// si quisieramos algo mas corto y todos los valores en uno seria asi 
+// @mixin horizontal-space($space-h, $space-v){
+//     padding: $space-h, $space-v;
+// }

@@ -1,0 +1,66 @@
+// Container para dar flexbox horizontal
+.h-container {
+    width: 100%;
+    display: flex; // crea contenedor de tipo flex
+    flex-direction: row; // dirección de tipo flex
+    justify-content: space-between;
+}
+
+// Contenedor tipo aside con dirección en columnas
+.aside-container {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 700px) {
+        width: 38%;
+    }
+}
+
+// sections container estructura
+.section {
+    @include padding-4-sides($vertical-space-full-height-container,$horizontal-space-full-width)
+}
+
+.container-body{
+    width: 80%;
+    @include padding-4-sides($vertical-space-full-height-container,$horizontal-space-full-width)
+}
+
+.input-text{
+    border: 1px solid $grey;
+    border-radius: 5px;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.input-suscribir{
+    @include padding-4-sides(1rem,10rem);
+    border-radius: 10px;
+    
+}
+
+.container-centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.container-suscripcion{
+    border: 1px solid;
+    border-radius: $border-rounded;
+    width: 100%;
+    background-color: $bg-suscripcion;
+    
+
+}
+.suscripcion-h2{
+    width: 50%;
+    color: $white;
+}
+
+.container-btn{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-top: 1rem
+}
